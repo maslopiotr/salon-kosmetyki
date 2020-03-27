@@ -1,0 +1,18 @@
+.realizacje-list {
+    list-style: none;
+}
+.main-photo-outter {
+    position: relative;
+    text-align: center;
+}
+.main-photo-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 40px;
+}
+.main-photo-img {
+    opacity: .3;
+    border-radius: 20px;
+}
