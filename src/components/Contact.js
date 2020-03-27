@@ -4,19 +4,20 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section id="#contact">
-                <form method="post" action="#" data-netlify="true">
+                <form name="contact-form" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                     <div className="field half first">
                         <label htmlFor="name">Imię</label>
-                        <input type="text" name="name" id="name" placeholder="Twoje Imię" />
+                        <input type="text" name="name" id="name" placeholder="Twoje Imię" required/>
                     </div>
                     <div className="field half">
                         <label htmlFor="email">Twój Email</label>
-                        <input type="text" name="email" id="email" placeholder="example@name.com"/>
+                        <input type="text" name="email" id="email" placeholder="example@name.com" required/>
                     </div>
                     <div className="field">
                         <label htmlFor="message">W czym możemy pomóc?</label>
-                        <textarea name="message" id="message" rows="10" placeholder="Prosimy opisz w jaki sposób możemy pomóc, jeśli chcesz abyśmy oddzwonili podaj tutaj numer telefonu."></textarea>
+                        <textarea name="message" id="message" rows="10" placeholder="Prosimy opisz w jaki sposób możemy pomóc, jeśli chcesz abyśmy oddzwonili podaj tutaj numer telefonu." required></textarea>
                     </div>
+                    <div data-netlify-recaptcha="true"></div>
                     <ul className="actions">
                         <li><input type="submit" value="Wyślij" className="special" /></li>
                         <li><input type="reset" value="Wyczyść" /></li>
