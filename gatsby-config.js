@@ -7,6 +7,24 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    { 
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+      // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+      trackingId: "UA-136699860-3",
+    },
+  },
+  {
+    resolve: `gatsby-plugin-gtag`,
+    options: {
+      // your google analytics tracking id
+      trackingId: `UA-136699860-3`,
+      // Puts tracking script in the head instead of the body
+      head: false,
+      // enable ip anonymization
+      anonymize: true,
+    },
+  },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -18,7 +36,9 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
+      
     },
+    
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
