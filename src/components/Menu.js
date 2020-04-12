@@ -9,7 +9,7 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/">Główna</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/cennik">Cennik</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/nasze-realizacje">Nasze realizacje</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/generic">o Nas</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/o-nas">o Nas</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="#contact">Kontakt</Link></li>
                 <li><a href="https://www.facebook.com/pg/salonkosmetykisamochodowej/about/" target="blank" rel="noopener noreferrer nofollow">Facebook</a></li>
             </ul>
