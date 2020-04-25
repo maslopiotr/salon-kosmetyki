@@ -9,7 +9,7 @@ const ONas = props => (
     
       <title>Sklep z kosmetykami do pielęgnacji Twojego samochodu</title>
       
-      <meta name="description" content="Salon Kosmetyki Samochodowej - najlepszy autodetailing w najlepszej cenie. Pomagamy zadbać o Twój samochód - w każdym aspekcie" />
+      <meta name="description" content="Strefa Detailingu - najlepszy autodetailing w najlepszej cenie. Pomagamy zadbać o Twój samochód - w każdym aspekcie" />
     </Helmet>
 
     <div id="main">

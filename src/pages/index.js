@@ -25,7 +25,7 @@ class HomeIndex extends React.Component {
         <Helmet
 
           htmlAttributes={{lang: `pl-PL`}}
-          title="Salon Kosmetyki Samochodowej w Tarnowie"
+          title="Strefa Detailingu - najlepszy detailingu w Tarnowie"
           meta={[
             { name: 'description', content: 'Specjalizujemy się w odnawianiu i zabezpieczaniu samochodów najnowocześniejszymi powłokami. Przywracamy salonowy wygląd autom używanym, regenerujemy lakiery i odnawiamy wnętrza. Odwiedź nas i przekonaj się co potrafimy' },
             { name: 'keywords', content:'autodetailing, myjnia Tarnów, sklep detailingowy, kosmetyki samochodowe, pranie tapicerki, czyszczenie tapicerki, powłoka ceramiczna Tarnów, myjnia, detailing, sklep detailingowy, kosmetyki samochodowe' },

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Salon Kosmetyki Samochodowej w Tarnowie",
+    title: "Strefa Detailingu",
     titleTemplate: "%s · najlepszy salon kosmetyki samochodowej w regionie",
     author: "maslopiotr",
     description: "Przywracamy salonowy wygląd samochodom używanym, regenerujemy lakiery i odnawiamy wnętrza."
@@ -11,14 +11,14 @@ module.exports = {
     resolve: `gatsby-plugin-google-analytics`,
     options: {
       // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-      trackingId: "UA-136699860-3",
+      trackingId: "UA-136699860-5",
     },
   },
   {
     resolve: `gatsby-plugin-gtag`,
     options: {
       // your google analytics tracking id
-      trackingId: `UA-136699860-3`,
+      trackingId: `UA-136699860-5`,
       // Puts tracking script in the head instead of the body
       head: false,
       // enable ip anonymization
@@ -28,8 +28,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Salon Kosmetyki Samochodowej w Tarnowie',
-        short_name: 'Salon Kosmetyki Tarnów',
+        name: 'Strefa Detailingu usługi detailingowe i sklep',
+        short_name: 'Strefa Detailingu',
         start_url: '/',
         background_color: '#171717',
         theme_color: '#663399',

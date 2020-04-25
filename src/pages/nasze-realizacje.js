@@ -10,7 +10,7 @@ const Cennik = props => (
     
       <title>Nasze realizacje - Salon Kosmetyki Samochodowej</title>
       
-      <meta name="description" content="Galeria klientów Salonu Kosmetyki Samochodowej" />
+      <meta name="description" content="Galeria klientów Strefy Detailingu" />
     </Helmet>
 
     <BannerRealizacje />
