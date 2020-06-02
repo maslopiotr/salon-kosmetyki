@@ -313,9 +313,9 @@ const Cennik = props => (
               </dl>
             </div>
             <div className="col-4" style={{textAlign:`center`, display:`flex`, alignItems:`center`, justifyContent:`center`}}>
-              <div className="listblock">mały<br />300,-</div>
-              <div className="listblock">średni<br/>350,-</div>
-              <div className="listblock">duży<br/>400,-</div>
+              <div className="listblock">mały<br />400,-</div>
+              <div className="listblock">średni<br/>450,-</div>
+              <div className="listblock">duży<br/>500,-</div>
             </div>
           </div>
         </div>
@@ -356,9 +356,9 @@ const Cennik = props => (
               </dl>
             </div>
             <div className="col-4" style={{textAlign:`center`, display:`flex`, alignItems:`center`, justifyContent:`center`}}>
-              <div className="listblock">mały<br />600,-</div>
-              <div className="listblock">średni<br/>800,-</div>
-              <div className="listblock">duży<br/>850,-</div>
+              <div className="listblock">mały<br />900,-</div>
+              <div className="listblock">średni<br/>1000,-</div>
+              <div className="listblock">duży<br/>1100,-</div>
             </div>
           </div>
         </div>
