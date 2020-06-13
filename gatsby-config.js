@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://www.strefadetailingu.com`,
     title: "Strefa Detailingu",
     titleTemplate: "%s · najlepszy salon kosmetyki samochodowej w regionie",
     author: "maslopiotr",
     description: "Przywracamy salonowy wygląd samochodom używanym, regenerujemy lakiery i odnawiamy wnętrza."
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-react-helmet',
     { 
     resolve: `gatsby-plugin-google-analytics`,
