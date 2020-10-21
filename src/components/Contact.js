@@ -4,7 +4,7 @@ import ContactForm from './ContactForm'
 const Contact = (props) => (
     <section id="contact">
         <div className="inner">
-            
+
             <ContactForm />
 
             <section className="split">
@@ -12,7 +12,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope-open-o"></span>
                         <h3>Umów się na wizytę</h3>
-                        <a href="mailto:salon@gmail.com">salon.tarnow@hotmail.com</a><br/>
+                        <a href="mailto:adrian@strefadetailingu.com">adrian@strefadetailingu.com</a><br/>
                         <a href ="tel:+48883268952">+48 883 268 952</a>
                     </div>
                 </section>

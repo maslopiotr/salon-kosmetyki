@@ -44,7 +44,7 @@ class HomeIndex extends React.Component {
                   pielęgnacji tapicerek.
                 </p>
               </header>
-              <Link to="/sklep" className="link primary"></Link>
+              <Link to="https://shop.strefadetailingu.com/" className="link primary"></Link>
             </article>
 
             <article style={{ backgroundImage: `url(${pic02})` }}>
